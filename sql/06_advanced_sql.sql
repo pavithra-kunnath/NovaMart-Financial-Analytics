@@ -1,0 +1,1 @@
+-- 06_advanced_sql.sql: Advanced window functions, CTEs, and complex analytics

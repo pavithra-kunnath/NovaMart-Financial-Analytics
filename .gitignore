@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Environment Variables
+.env
+
+# Data & Logs
+data/raw/*
+!data/raw/.gitkeep
+data/staging/*
+!data/staging/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+logs/*.log
+!logs/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp

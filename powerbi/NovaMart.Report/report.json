@@ -1,0 +1,387 @@
+{
+  "config": "{\"version\":\"5.68\",\"themeCollection\":{},\"activeSectionIndex\":0,\"linguisticSchemaSyncVersion\":2,\"objects\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "ReportSection01ExecutiveOverview",
+      "config": "{}",
+      "name": "d12301dfd2892d09c282"
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"192L\"}}}}}]}}",
+      "displayName": "01 Executive Overview",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection01ExecutiveOverview",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"19c2a595c9040ba9b7a6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":439.4572420321868,\"y\":2.304749043439118,\"z\":2000,\"width\":281.63358854694326,\"height\":236.23677695250956,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Gross Margin %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"},\"Name\":\"_Measures.Gross Margin %\",\"NativeReferenceName\":\"Gross Margin %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 236.24,
+          "width": 281.63,
+          "x": 439.46,
+          "y": 2.30,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"213e51cdbe60116ca7cc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":557.6499176139673,\"y\":251.21764573486382,\"z\":5001,\"width\":404.08297487170114,\"height\":215.4940355615575,\"tabOrder\":5001}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_product.category\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_product\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"category\"},\"Name\":\"dim_product.category\",\"NativeReferenceName\":\"category\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Revenue by Category'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 215.49,
+          "width": 404.08,
+          "x": 557.65,
+          "y": 251.22,
+          "z": 5001.00
+        },
+        {
+          "config": "{\"name\":\"7530684aa94a0c378600\",\"layouts\":[{\"id\":0,\"position\":{\"x\":228.5721878062148,\"y\":2.304749043439118,\"z\":1000,\"width\":228.5721878062148,\"height\":236.23677695250956,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Gross Profit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"},\"Name\":\"_Measures.Gross Profit\",\"NativeReferenceName\":\"Gross Profit\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 236.24,
+          "width": 228.57,
+          "x": 228.57,
+          "y": 2.30,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9b2c0cd1a60238bd8c50\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1046.2619787082094,\"y\":1.152374521719559,\"z\":4000,\"width\":234.0143827539818,\"height\":235.08440243079,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Total Units\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Units\"},\"Name\":\"_Measures.Total Units\",\"NativeReferenceName\":\"Total Units\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Units\"}}}]},\"hasDefaultSort\":true,\"objects\":{\"value\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}]}}}",
+          "filters": "[]",
+          "height": 235.08,
+          "width": 234.01,
+          "x": 1046.26,
+          "y": 1.15,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"9d97ff767903a45c964a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.29262094966036,\"y\":492.06392077425164,\"z\":5002,\"width\":712.9275381574795,\"height\":215.4940355615575,\"tabOrder\":5002}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_store.store_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_store\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"store_name\"},\"Name\":\"dim_store.store_name\",\"NativeReferenceName\":\"store_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Revenue by Store'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 215.49,
+          "width": 712.93,
+          "x": 31.29,
+          "y": 492.06,
+          "z": 5002.00
+        },
+        {
+          "config": "{\"name\":\"d68519b0b3aede5c66b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":710.2064406835959,\"y\":1.152374521719559,\"z\":3000,\"width\":349.66102539403096,\"height\":236.23677695250956,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Average Order Value\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Average Order Value\"},\"Name\":\"_Measures.Average Order Value\",\"NativeReferenceName\":\"Average Order Value\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Average Order Value\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 236.24,
+          "width": 349.66,
+          "x": 710.21,
+          "y": 1.15,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"eb911195d41987033972\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":242.17767517563234,\"height\":236.23677695250956,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 236.24,
+          "width": 242.18,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f047679e169537acea97\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":251.21764573486382,\"z\":5000,\"width\":519.4733951367275,\"height\":215.4940355615575,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_date.year_month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dim_date\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"},\"Name\":\"dim_date.year_month\",\"NativeReferenceName\":\"year_month\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Monthly Net Revenue Trend'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 215.49,
+          "width": 519.47,
+          "x": 0.00,
+          "y": 251.22,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "02 Revenue & Profitability",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection02RevenueProfitability",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"05f09e544c31b85610e1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":441.4282117137533,\"y\":21.895115912671617,\"z\":2,\"width\":277.78348525289147,\"height\":146.35156425838397,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Gross Margin %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"},\"Name\":\"_Measures.Gross Margin %\",\"NativeReferenceName\":\"Gross Margin %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 146.35,
+          "width": 277.78,
+          "x": 441.43,
+          "y": 21.90,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"2974a0a0a4a04dd67461\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045.1259841197898,\"y\":23.047490434391175,\"z\":4,\"width\":235.1533464269527,\"height\":145.1991897366644,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Discount Amount\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Discount Amount\"},\"Name\":\"_Measures.Discount Amount\",\"NativeReferenceName\":\"Discount Amount\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Discount Amount\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 145.20,
+          "width": 235.15,
+          "x": 1045.13,
+          "y": 23.05,
+          "z": 4.00
+        },
+        {
+          "config": "{\"name\":\"6cf968bf8825bb6223a2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.626160380050695,\"y\":570.4253882511816,\"z\":12,\"width\":669.7057292978127,\"height\":149.80868782354264,\"tabOrder\":12}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_product.category\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Gross Margin %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dim_product\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"category\"},\"Name\":\"dim_product.category\",\"NativeReferenceName\":\"category\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"},\"Name\":\"_Measures.Gross Margin %\",\"NativeReferenceName\":\"Gross Margin %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"}}}]}}}",
+          "filters": "[]",
+          "height": 149.81,
+          "width": 669.71,
+          "x": 9.63,
+          "y": 570.43,
+          "z": 12.00
+        },
+        {
+          "config": "{\"name\":\"7622e25d65b4906e847d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.626160380050695,\"y\":19.5903668692325,\"z\":0,\"width\":235.1533464269527,\"height\":148.65631330182308,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 148.66,
+          "width": 235.15,
+          "x": 9.63,
+          "y": 19.59,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"88df8a318aac014836ae\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.626160380050695,\"y\":338.7981093855503,\"z\":10,\"width\":606.5200422117624,\"height\":224.71303173531396,\"tabOrder\":10}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_date.year_month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dim_date\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"},\"Name\":\"dim_date.year_month\",\"NativeReferenceName\":\"year_month\"}]},\"objects\":{\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"a54b9be2a767b88e068a\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_date\"}},\"Property\":\"year_month\"}},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 224.71,
+          "width": 606.52,
+          "x": 9.63,
+          "y": 338.80,
+          "z": 10.00
+        },
+        {
+          "config": "{\"name\":\"8da5bd51cda84a4892e5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":280.53381679004883,\"y\":168.2466801710556,\"z\":6,\"width\":211.7755283611153,\"height\":152.11343686698177,\"tabOrder\":6}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Gross Sales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Sales\"},\"Name\":\"_Measures.Gross Sales\",\"NativeReferenceName\":\"Gross Sales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Sales\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 152.11,
+          "width": 211.78,
+          "x": 280.53,
+          "y": 168.25,
+          "z": 6.00
+        },
+        {
+          "config": "{\"name\":\"8f21bfc309bd4e90d22b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":705.460039280858,\"y\":21.895115912671617,\"z\":3,\"width\":352.0424367561397,\"height\":146.35156425838397,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Average Order Value\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Average Order Value\"},\"Name\":\"_Measures.Average Order Value\",\"NativeReferenceName\":\"Average Order Value\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Average Order Value\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 146.35,
+          "width": 352.04,
+          "x": 705.46,
+          "y": 21.90,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"ae9405741692bb9154c6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":478.5576874653774,\"y\":168.2466801710556,\"z\":7,\"width\":185.64737875812054,\"height\":152.11343686698177,\"tabOrder\":7}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.COGS\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"COGS\"},\"Name\":\"_Measures.COGS\",\"NativeReferenceName\":\"COGS\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"COGS\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 152.11,
+          "width": 185.65,
+          "x": 478.56,
+          "y": 168.25,
+          "z": 7.00
+        },
+        {
+          "config": "{\"name\":\"bd64d47a10010ac93135\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045.1259841197898,\"y\":168.2466801710556,\"z\":9,\"width\":235.1533464269527,\"height\":152.11343686698177,\"tabOrder\":9}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Refund Rate %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Refund Rate %\"},\"Name\":\"_Measures.Refund Rate %\",\"NativeReferenceName\":\"Refund Rate %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Refund Rate %\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 152.11,
+          "width": 235.15,
+          "x": 1045.13,
+          "y": 168.25,
+          "z": 9.00
+        },
+        {
+          "config": "{\"name\":\"cc69bca10cca7d9ebb2c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.626160380050695,\"y\":168.2466801710556,\"z\":5,\"width\":286.0344798643635,\"height\":152.11343686698177,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Discount Rate %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Discount Rate %\"},\"Name\":\"_Measures.Discount Rate %\",\"NativeReferenceName\":\"Discount Rate %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Discount Rate %\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 152.11,
+          "width": 286.03,
+          "x": 9.63,
+          "y": 168.25,
+          "z": 5.00
+        },
+        {
+          "config": "{\"name\":\"d1d67761607c198a23ca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":235.1533464269527,\"y\":20.74274139095206,\"z\":1,\"width\":217.27619143542998,\"height\":147.50393878010354,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Gross Profit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"},\"Name\":\"_Measures.Gross Profit\",\"NativeReferenceName\":\"Gross Profit\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 147.50,
+          "width": 217.28,
+          "x": 235.15,
+          "y": 20.74,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"df40c0e002b5c4310476\",\"layouts\":[{\"id\":0,\"position\":{\"x\":639.4520823890819,\"y\":338.7981093855503,\"z\":11,\"width\":508.8113343741082,\"height\":225.86540625703353,\"tabOrder\":11}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_date.year_month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Gross Sales\"},{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_date\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"},\"Name\":\"dim_date.year_month\",\"NativeReferenceName\":\"year_month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Sales\"},\"Name\":\"_Measures.Gross Sales\",\"NativeReferenceName\":\"Gross Sales\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"}}}]}}}",
+          "filters": "[]",
+          "height": 225.87,
+          "width": 508.81,
+          "x": 639.45,
+          "y": 338.80,
+          "z": 11.00
+        },
+        {
+          "config": "{\"name\":\"e653f280d66b901a1183\",\"layouts\":[{\"id\":0,\"position\":{\"x\":654.5789058434473,\"y\":168.2466801710556,\"z\":8,\"width\":402.9235701935505,\"height\":152.11343686698177,\"tabOrder\":8}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Refund Revenue Impact\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Refund Revenue Impact\"},\"Name\":\"_Measures.Refund Revenue Impact\",\"NativeReferenceName\":\"Refund Revenue Impact\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Refund Revenue Impact\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 152.11,
+          "width": 402.92,
+          "x": 654.58,
+          "y": 168.25,
+          "z": 8.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "03 Product & Category",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection03ProductCategory",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"015c2b231d621c340807\",\"layouts\":[{\"id\":0,\"position\":{\"x\":417.1540561818456,\"y\":277.7222597344137,\"z\":4,\"width\":664.1531683947806,\"height\":292.70312851676795,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_product.item\"},{\"queryRef\":\"dim_product.category\"},{\"queryRef\":\"_Measures.Net Revenue\"},{\"queryRef\":\"_Measures.Gross Profit\"},{\"queryRef\":\"_Measures.Gross Margin %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_product\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"item\"},\"Name\":\"dim_product.item\",\"NativeReferenceName\":\"item\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"category\"},\"Name\":\"dim_product.category\",\"NativeReferenceName\":\"category\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"},\"Name\":\"_Measures.Gross Profit\",\"NativeReferenceName\":\"Gross Profit\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"},\"Name\":\"_Measures.Gross Margin %\",\"NativeReferenceName\":\"Gross Margin %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]}}}",
+          "filters": "[]",
+          "height": 292.70,
+          "width": 664.15,
+          "x": 417.15,
+          "y": 277.72,
+          "z": 4.00
+        },
+        {
+          "config": "{\"name\":\"0f61daeae17db3809c04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":791.7693763714635,\"y\":19.5903668692325,\"z\":2,\"width\":385.5930585101928,\"height\":212.03691199639883,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_product.category\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_product\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"category\"},\"Name\":\"dim_product.category\",\"NativeReferenceName\":\"category\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 212.04,
+          "width": 385.59,
+          "x": 791.77,
+          "y": 19.59,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"495d22b028b3ee034753\",\"layouts\":[{\"id\":0,\"position\":{\"x\":395.19857954069585,\"y\":19.5903668692325,\"z\":1,\"width\":386,\"height\":212,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"_Measures.Gross Profit\"}],\"Category\":[{\"queryRef\":\"dim_product.item\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dim_product\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"},\"Name\":\"_Measures.Gross Profit\",\"NativeReferenceName\":\"Gross Profit\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"item\"},\"Name\":\"dim_product.item\",\"NativeReferenceName\":\"item\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 212.00,
+          "width": 386.00,
+          "x": 395.20,
+          "y": 19.59,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"8230396123a80682c713\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":286,\"width\":386,\"height\":212,\"z\":3,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_product.category\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Gross Margin %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_product\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"category\"},\"Name\":\"dim_product.category\",\"NativeReferenceName\":\"category\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"},\"Name\":\"_Measures.Gross Margin %\",\"NativeReferenceName\":\"Gross Margin %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 212.00,
+          "width": 386.00,
+          "x": 10.00,
+          "y": 286.00,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"e603cec57d99d4360870\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":19.5903668692325,\"z\":0,\"width\":385.5930585101928,\"height\":212.03691199639883,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_product.item\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_product\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"item\"},\"Name\":\"dim_product.item\",\"NativeReferenceName\":\"item\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]}}}",
+          "filters": "[]",
+          "height": 212.04,
+          "width": 385.59,
+          "x": 9.61,
+          "y": 19.59,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "04 Store & Customer",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection04StoreCustomer",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3bdb771fcd61e234419d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":289.53784820516256,\"y\":19.5903668692325,\"z\":1,\"width\":280,\"height\":280,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_store.store_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Gross Profit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_store\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"store_name\"},\"Name\":\"dim_store.store_name\",\"NativeReferenceName\":\"store_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"},\"Name\":\"_Measures.Gross Profit\",\"NativeReferenceName\":\"Gross Profit\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 289.54,
+          "y": 19.59,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"4d8f83448d9778a5d9ae\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":320.36011703803734,\"z\":3,\"width\":823.3303740431163,\"height\":280.0270087778528,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_store.store_name\"},{\"queryRef\":\"dim_store.city\"},{\"queryRef\":\"_Measures.Net Revenue\"},{\"queryRef\":\"_Measures.Gross Profit\"},{\"queryRef\":\"_Measures.Gross Margin %\"},{\"queryRef\":\"_Measures.Refund Revenue Impact\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_store\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"store_name\"},\"Name\":\"dim_store.store_name\",\"NativeReferenceName\":\"store_name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"city\"},\"Name\":\"dim_store.city\",\"NativeReferenceName\":\"city\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Profit\"},\"Name\":\"_Measures.Gross Profit\",\"NativeReferenceName\":\"Gross Profit\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Gross Margin %\"},\"Name\":\"_Measures.Gross Margin %\",\"NativeReferenceName\":\"Gross Margin %\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Refund Revenue Impact\"},\"Name\":\"_Measures.Refund Revenue Impact\",\"NativeReferenceName\":\"Refund Revenue Impact\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]}}}",
+          "filters": "[]",
+          "height": 280.03,
+          "width": 823.33,
+          "x": 9.61,
+          "y": 320.36,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"6b9c2b6a0c3790ec5b07\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":20,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_store.store_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_store\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"store_name\"},\"Name\":\"dim_store.store_name\",\"NativeReferenceName\":\"store_name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 20.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"9192262eab9b67e9ad2b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":569.4701753798222,\"y\":19.5903668692325,\"z\":2,\"width\":280,\"height\":280,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_customer.customer_type\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_customer\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"customer_type\"},\"Name\":\"dim_customer.customer_type\",\"NativeReferenceName\":\"customer_type\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 569.47,
+          "y": 19.59,
+          "z": 2.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "05 Forecast & Outlook",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection05ForecastOutlook",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3664df1ddb46ede58a2e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":320.36011703803734,\"z\":3,\"width\":610.6366940819779,\"height\":236.23677695250956,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_date.year_month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Forecast Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_date\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"},\"Name\":\"dim_date.year_month\",\"NativeReferenceName\":\"year_month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Net Revenue\"},\"Name\":\"_Measures.Forecast Net Revenue\",\"NativeReferenceName\":\"Forecast Net Revenue\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"}}}]}}}",
+          "filters": "[]",
+          "height": 236.24,
+          "width": 610.64,
+          "x": 9.61,
+          "y": 320.36,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"4908111c37dd6d333a04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.626160380050695,\"y\":19.5903668692325,\"z\":0,\"width\":385.0464152020278,\"height\":280.0270087778528,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Forecast Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Net Revenue\"},\"Name\":\"_Measures.Forecast Net Revenue\",\"NativeReferenceName\":\"Forecast Net Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Net Revenue\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.03,
+          "width": 385.05,
+          "x": 9.63,
+          "y": 19.59,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"4b9054bd6649c69d4405\",\"layouts\":[{\"id\":0,\"position\":{\"x\":771.4679961726343,\"y\":20.74274139095206,\"z\":2,\"width\":380.92091789629177,\"height\":280.0270087778528,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Forecast Upper Bound\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Upper Bound\"},\"Name\":\"_Measures.Forecast Upper Bound\",\"NativeReferenceName\":\"Forecast Upper Bound\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Upper Bound\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.03,
+          "width": 380.92,
+          "x": 771.47,
+          "y": 20.74,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"be298a50718b8120e7ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":394.6725755820785,\"y\":20.74274139095206,\"z\":1,\"width\":376.7954205905558,\"height\":280.0270087778528,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_Measures.Forecast Lower Bound\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Lower Bound\"},\"Name\":\"_Measures.Forecast Lower Bound\",\"NativeReferenceName\":\"Forecast Lower Bound\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Lower Bound\"}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.03,
+          "width": 376.80,
+          "x": 394.67,
+          "y": 20.74,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"ca05e683ee6c141d3067\",\"layouts\":[{\"id\":0,\"position\":{\"x\":620.242215112481,\"y\":320.36011703803734,\"z\":4,\"width\":660.036516524565,\"height\":289.2460049516093,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_date.year_month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Net Revenue\"}],\"Y2\":[{\"queryRef\":\"_Measures.Forecast Net Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_date\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"},\"Name\":\"dim_date.year_month\",\"NativeReferenceName\":\"year_month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Net Revenue\"},\"Name\":\"_Measures.Net Revenue\",\"NativeReferenceName\":\"Net Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Forecast Net Revenue\"},\"Name\":\"_Measures.Forecast Net Revenue\",\"NativeReferenceName\":\"Forecast Net Revenue\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_month\"}}}]}}}",
+          "filters": "[]",
+          "height": 289.25,
+          "width": 660.04,
+          "x": 620.24,
+          "y": 320.36,
+          "z": 4.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

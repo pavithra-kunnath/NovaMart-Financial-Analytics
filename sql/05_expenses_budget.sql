@@ -1,0 +1,1 @@
+-- 05_expenses_budget.sql: Expense tracking and budget vs actual variance queries

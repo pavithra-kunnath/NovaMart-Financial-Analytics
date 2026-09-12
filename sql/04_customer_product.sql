@@ -1,0 +1,1 @@
+-- 04_customer_product.sql: Customer segmentation and product performance analytics

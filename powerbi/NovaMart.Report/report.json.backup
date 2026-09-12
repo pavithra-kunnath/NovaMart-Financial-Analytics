@@ -1,0 +1,223 @@
+{
+  "config": "{\"version\":\"5.50\",\"themeCollection\":{\"baseTheme\":{\"name\":\"Executive Minimalist\",\"version\":\"2.0\"}}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [],
+  "sections": [
+    {
+      "name": "ReportSection01ExecutiveOverview",
+      "displayName": "01 Executive Overview",
+      "filters": "[]",
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "name": "kpi_net_revenue",
+          "config": "{\"title\":\"Net Revenue\",\"measure\":\"Net Revenue\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_gross_profit",
+          "config": "{\"title\":\"Gross Profit\",\"measure\":\"Gross Profit\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_gross_margin",
+          "config": "{\"title\":\"Gross Margin %\",\"measure\":\"Gross Margin %\",\"format\":\"0.00%\"}"
+        },
+        {
+          "name": "kpi_total_units",
+          "config": "{\"title\":\"Total Units\",\"measure\":\"Total Units\",\"format\":\"#,##0\"}"
+        },
+        {
+          "name": "kpi_transactions",
+          "config": "{\"title\":\"Distinct Transactions\",\"measure\":\"Distinct Transactions\",\"format\":\"#,##0\"}"
+        },
+        {
+          "name": "kpi_aov",
+          "config": "{\"title\":\"Average Order Value\",\"measure\":\"Average Order Value\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "chart_monthly_revenue_trend",
+          "config": "{\"type\":\"lineChart\",\"title\":\"Monthly Net Revenue Trend (2024-2025)\",\"xAxis\":\"dim_date[year_month]\",\"yAxis\":\"[Net Revenue]\"}"
+        },
+        {
+          "name": "chart_monthly_profit_trend",
+          "config": "{\"type\":\"areaChart\",\"title\":\"Monthly Gross Profit Trend\",\"xAxis\":\"dim_date[year_month]\",\"yAxis\":\"[Gross Profit]\"}"
+        },
+        {
+          "name": "chart_revenue_yoy_comparison",
+          "config": "{\"type\":\"columnChart\",\"title\":\"Revenue YoY Comparison\",\"xAxis\":\"dim_date[month_name]\",\"legend\":\"dim_date[year]\",\"yAxis\":\"[Net Revenue]\"}"
+        },
+        {
+          "name": "chart_category_contribution",
+          "config": "{\"type\":\"donutChart\",\"title\":\"Category Net Revenue Contribution\",\"legend\":\"dim_product[category]\",\"values\":\"[Net Revenue]\"}"
+        },
+        {
+          "name": "chart_store_ranking",
+          "config": "{\"type\":\"barChart\",\"title\":\"Store Net Revenue Ranking (Top 30 Stores)\",\"yAxis\":\"dim_store[store_name]\",\"xAxis\":\"[Net Revenue]\"}"
+        },
+        {
+          "name": "text_insights_card",
+          "config": "{\"type\":\"textbox\",\"text\":\"Executive Key Insights:\\n1. December Peak: Dec 2025 achieved record $2.90M Net Revenue.\\n2. Category Focus: Apparel ($14.92M) & Footwear ($12.01M) drive 57.8% of portfolio revenue.\\n3. Margin Dynamics: Electronics yields highest Gross Margin % (62.15%).\\n4. Customer Mix: Anonymous Guests generate 71.9% of Net Revenue ($33.48M) with lower AOV ($72.54 vs $98.12 Identified).\"}"
+        }
+      ]
+    },
+    {
+      "name": "ReportSection02RevenueProfitability",
+      "displayName": "02 Revenue & Profitability",
+      "filters": "[]",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "name": "kpi_gross_sales",
+          "config": "{\"title\":\"Gross Sales\",\"measure\":\"Gross Sales\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_discount_amount",
+          "config": "{\"title\":\"Discount Amount\",\"measure\":\"Discount Amount\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_net_revenue_p2",
+          "config": "{\"title\":\"Net Revenue\",\"measure\":\"Net Revenue\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_cogs",
+          "config": "{\"title\":\"COGS\",\"measure\":\"COGS\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_gross_profit_p2",
+          "config": "{\"title\":\"Gross Profit\",\"measure\":\"Gross Profit\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_gross_margin_p2",
+          "config": "{\"title\":\"Gross Margin %\",\"measure\":\"Gross Margin %\",\"format\":\"0.00%\"}"
+        },
+        {
+          "name": "kpi_discount_rate",
+          "config": "{\"title\":\"Discount Rate %\",\"measure\":\"Discount Rate %\",\"format\":\"0.00%\"}"
+        },
+        {
+          "name": "chart_gross_vs_net_sales",
+          "config": "{\"type\":\"lineComboChart\",\"title\":\"Gross Sales vs Net Revenue Trend\",\"xAxis\":\"dim_date[year_month]\",\"series\":[\"[Gross Sales]\", \"[Net Revenue]\"]}"
+        },
+        {
+          "name": "chart_monthly_margin_pct",
+          "config": "{\"type\":\"lineChart\",\"title\":\"Monthly Gross Margin %\",\"xAxis\":\"dim_date[year_month]\",\"yAxis\":\"[Gross Margin %]\"}"
+        },
+        {
+          "name": "chart_revenue_mom_pct",
+          "config": "{\"type\":\"columnChart\",\"title\":\"Revenue MoM % Growth\",\"xAxis\":\"dim_date[year_month]\",\"yAxis\":\"[Revenue MoM %]\"}"
+        },
+        {
+          "name": "chart_revenue_yoy_pct",
+          "config": "{\"type\":\"columnChart\",\"title\":\"Revenue YoY % Growth\",\"xAxis\":\"dim_date[year_month]\",\"yAxis\":\"[Revenue YoY %]\"}"
+        },
+        {
+          "name": "matrix_category_profitability",
+          "config": "{\"type\":\"matrix\",\"title\":\"Category Profitability Matrix\",\"rows\":[\"dim_product[category]\"],\"columns\":[\"[Gross Sales]\",\"[Discount Amount]\",\"[Net Revenue]\",\"[COGS]\",\"[Gross Profit]\",\"[Gross Margin %]\",\"[Discount Rate %]\"]}"
+        }
+      ]
+    },
+    {
+      "name": "ReportSection03ProductCategory",
+      "displayName": "03 Product & Category",
+      "filters": "[]",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "name": "chart_top10_revenue",
+          "config": "{\"type\":\"barChart\",\"title\":\"Top 10 Products by Net Revenue\",\"yAxis\":\"dim_product[item]\",\"xAxis\":\"[Net Revenue]\",\"topN\":10}"
+        },
+        {
+          "name": "chart_top10_profit",
+          "config": "{\"type\":\"barChart\",\"title\":\"Top 10 Products by Gross Profit\",\"yAxis\":\"dim_product[item]\",\"xAxis\":\"[Gross Profit]\",\"topN\":10}"
+        },
+        {
+          "name": "chart_bottom10_profit",
+          "config": "{\"type\":\"barChart\",\"title\":\"Bottom 10 Products by Gross Profit\",\"yAxis\":\"dim_product[item]\",\"xAxis\":\"[Gross Profit]\",\"bottomN\":10}"
+        },
+        {
+          "name": "chart_category_rev_vs_profit",
+          "config": "{\"type\":\"clusteredColumnChart\",\"title\":\"Category Net Revenue vs Gross Profit\",\"xAxis\":\"dim_product[category]\",\"series\":[\"[Net Revenue]\",\"[Gross Profit]\"]}"
+        },
+        {
+          "name": "matrix_product_detail",
+          "config": "{\"type\":\"matrix\",\"title\":\"Product Detail Performance Matrix\",\"rows\":[\"dim_product[sku]\",\"dim_product[item]\",\"dim_product[category]\"],\"columns\":[\"[Total Units]\",\"[Net Revenue]\",\"[Gross Profit]\",\"[Gross Margin %]\",\"[Refund Line Items]\"]}"
+        }
+      ]
+    },
+    {
+      "name": "ReportSection04StoreCustomer",
+      "displayName": "04 Store & Customer",
+      "filters": "[]",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "name": "chart_store_rev_ranking",
+          "config": "{\"type\":\"barChart\",\"title\":\"Store Net Revenue Ranking\",\"yAxis\":\"dim_store[store_name]\",\"xAxis\":\"[Net Revenue]\"}"
+        },
+        {
+          "name": "chart_store_profit_ranking",
+          "config": "{\"type\":\"barChart\",\"title\":\"Store Gross Profit Ranking\",\"yAxis\":\"dim_store[store_name]\",\"xAxis\":\"[Gross Profit]\"}"
+        },
+        {
+          "name": "chart_store_aov_comparison",
+          "config": "{\"type\":\"columnChart\",\"title\":\"Store Average Order Value ($ AOV)\",\"xAxis\":\"dim_store[city]\",\"yAxis\":\"[Average Order Value]\"}"
+        },
+        {
+          "name": "matrix_store_performance",
+          "config": "{\"type\":\"matrix\",\"title\":\"Store Location Performance Matrix\",\"rows\":[\"dim_store[store_name]\",\"dim_store[city]\"],\"columns\":[\"[Net Revenue]\",\"[Gross Profit]\",\"[Gross Margin %]\",\"[Total Units]\",\"[Distinct Transactions]\",\"[Average Order Value]\",\"[Refund Line Items]\"]}"
+        },
+        {
+          "name": "chart_customer_revenue_segment",
+          "config": "{\"type\":\"pieChart\",\"title\":\"Identified vs Anonymous Guest Revenue Contribution\",\"legend\":\"dim_customer[customer_type]\",\"values\":\"[Net Revenue]\"}"
+        },
+        {
+          "name": "chart_customer_aov_segment",
+          "config": "{\"type\":\"columnChart\",\"title\":\"Identified vs Anonymous Guest Average Order Value\",\"xAxis\":\"dim_customer[customer_type]\",\"yAxis\":\"[Average Order Value]\"}"
+        }
+      ]
+    },
+    {
+      "name": "ReportSection05ForecastOutlook",
+      "displayName": "05 Forecast & Outlook",
+      "filters": "[]",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "name": "kpi_hist_revenue",
+          "config": "{\"title\":\"Historical Net Revenue (2024-2025)\",\"measure\":\"Net Revenue\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_forecast_h1_rev",
+          "config": "{\"title\":\"Forecast H1 2026 Net Revenue\",\"measure\":\"Forecast Net Revenue\",\"format\":\"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_forecast_avg_monthly",
+          "config": "{\"title\": \"Forecast Average Monthly Revenue\", \"measure\": \"Forecast Net Revenue\", \"format\": \"$#,##0.00\"}"
+        },
+        {
+          "name": "kpi_champion_model",
+          "config": "{\"title\":\"Champion Model\",\"value\":\"Seasonal Naive (Lag 12)\"}"
+        },
+        {
+          "name": "kpi_historical_wape",
+          "config": "{\"title\":\"Historical Backtest WAPE\",\"value\":\"5.20%\"}"
+        },
+        {
+          "name": "chart_forecast_trend_ribbon",
+          "config": "{\"type\":\"lineWithRibbonChart\",\"title\":\"2024-2025 Actual Net Revenue & 2026 Forward Forecast (95% Prediction Interval)\",\"xAxis\":\"dim_date[year_month]\",\"series\":[\"[Net Revenue]\",\"[Forecast Net Revenue]\",\"[Forecast Lower Bound]\",\"[Forecast Upper Bound]\"]}"
+        },
+        {
+          "name": "table_forecast_monthly",
+          "config": "{\"type\":\"table\",\"title\":\"H1 2026 Forecast Monthly Table\",\"columns\":[\"vw_pbi_fact_forecast[forecast_month]\",\"vw_pbi_fact_forecast[forecast_net_revenue]\",\"vw_pbi_fact_forecast[lower_bound_95]\",\"vw_pbi_fact_forecast[upper_bound_95]\",\"vw_pbi_fact_forecast[model_name]\"]}"
+        },
+        {
+          "name": "table_model_comparison",
+          "config": "{\"type\":\"table\",\"title\":\"Task 10 Model Backtest Performance Comparison\",\"columns\":[\"Model Name\",\"MAE\",\"RMSE\",\"MAPE (%)\",\"sMAPE (%)\",\"WAPE (%)\"],\"rows\":[[\"Seasonal Naive (Lag 12)\",\"$103,709.95\",\"$113,212.87\",\"5.20%\",\"5.37%\",\"5.20%\"],[\"ARIMA(0,1,1)\",\"$118,450.12\",\"$129,810.05\",\"5.95%\",\"6.12%\",\"5.94%\"],[\"ARIMA(1,1,0)\",\"$121,300.40\",\"$132,450.20\",\"6.10%\",\"6.28%\",\"6.08%\"],[\"ARIMA(1,1,1)\",\"$122,890.15\",\"$134,100.80\",\"6.18%\",\"6.35%\",\"6.16%\"],[\"Naive (Lag 1)\",\"$145,210.30\",\"$160,120.45\",\"7.30%\",\"7.52%\",\"7.29%\"]]}"
+        },
+        {
+          "name": "text_forecast_disclaimer",
+          "config": "{\"type\":\"textbox\",\"text\":\"FORECAST DISCLAIMER:\\nForecast values are analytical estimates produced by the Task 10 Seasonal Naive (Lag 12) champion model based on 2024-2025 historical performance. Actual 2026 revenue data is not yet available.\"}"
+        }
+      ]
+    }
+  ]
+}
