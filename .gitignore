@@ -25,3 +25,7 @@ logs/*.log
 .vscode/
 .idea/
 *.swp
+
+# Power BI local/cache files
+.pbi/
+*.abf
